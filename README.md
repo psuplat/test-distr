@@ -1,4 +1,4 @@
-# wings
+# pretty gui
 
 ## Project setup
 ```
