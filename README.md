@@ -8,13 +8,13 @@ you need to modify the url to the API to the one corresponding to your envronmen
 line 83 & line 127
 
 ### Installing the web gui (pretty)
-#### use branch gui-pretty
+#### use branch: gui-pretty
 
 you will require node.js & npm to make this work
 
 pull the repository to your machine
 
-modify the VUE_APP_API variable in the .env file to the address corresponding to you environment setup (TRAILING FLASH IS REQUIRED)
+modify the VUE_APP_API variable in the .env file to the address corresponding to you environment setup (TRAILING SLASH IS REQUIRED)
 
 ```run npm serve``` to lunch the application on your desktop
 
@@ -23,13 +23,13 @@ or
 ```run npm build``` to build the application for publishing on remote server
 
 ### Installing the api
-#### use branch api
+#### use branch: api
 just pull or copy the file into your api server
 
 update the ```login.php``` and ```recover.php``` file on line 13 and change the consumer url to the one corresponding to your environmental setup
 
 ### Installing the consumer service
-#### use branch consumer
+#### use branch: consumer
 pull the file into your server web directory
 
 the repository includes the PHPMailer to eliminate the need to download and configure separate dependency
