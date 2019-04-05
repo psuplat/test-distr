@@ -1,12 +1,14 @@
 ## INSTALLING
 
 ### Installing the web gui (basic)
+#### use branch: gui
 
 for the basic version just pull the branch web or copy the single index.html file into the server web directory
 you need to modify the url to the API to the one corresponding to your envronment setup
 line 83 & line 127
 
 ### Installing the web gui (pretty)
+#### use branch gui-pretty
 
 you will require node.js & npm to make this work
 
@@ -21,11 +23,13 @@ or
 ```run npm build``` to build the application for publishing on remote server
 
 ### Installing the api
+#### use branch api
 just pull or copy the file into your api server
 
 update the ```login.php``` and ```recover.php``` file on line 13 and change the consumer url to the one corresponding to your environmental setup
 
 ### Installing the consumer service
+#### use branch consumer
 pull the file into your server web directory
 
 the repository includes the PHPMailer to eliminate the need to download and configure separate dependency
